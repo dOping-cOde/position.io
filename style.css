@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-weight: bold;
+    color:rgb(241, 20, 5);
+    text-shadow: 2px 2px black;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    position: relative;
+    color: white;
+}
+.top-left{
+    position: absolute;
+    left: 380px;
+    bottom: 560px;
+}
+.top-right{
+    position: absolute;
+    left: 1045px;
+    bottom:560px ;
+}
+.bottom-left{
+    position: absolute;
+    left: 380px;
+    top: 500px;
+}
+.bottom-right{
+    position: absolute;
+    left:1000px;
+    top: 500px;
+}
+.center{
+    position: absolute;
+    top: 330px;
+    left: 730px;
+}
